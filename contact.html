@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Movyy | Contact</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container__logo">
+                <span>Movyy</span>
+            </div>
+            <nav>
+                <ul class="header__container__nav">
+                    <a href="./index.html">
+                        <li>Accueil</li>
+                    </a>
+                    <a href="./galerie.html">
+                        <li>Galerie</li>
+                    </a>
+                    <a href="./contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="burger"></div>
+        </div>
+    </header>
+
+    <div class="menu_mobile"></div>
+    <main>
+        <section class="contact">
+            <h1>Contact</h1>
+            <form action="" class="form">
+                <div class="names">
+                    <div class="form__item">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom">
+                    </div>
+                    <div class="form__item">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom">
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail">
+                </div>
+                <div class="form__item">
+                    <label for="sujet">Sujet</label>
+                    <textarea type="email" name="sujet" rows="10"></textarea>
+                </div>
+                <input class="cta" type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
